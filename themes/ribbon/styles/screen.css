@@ -327,6 +327,7 @@ body {
 	position:relative;
 	float:left;
 	margin:0 -432px -220px 0;
+	box-shadow:0 20px 50px rgba(42, 43, 45, 0.6);
 	-webkit-transform-origin:0 0;
 	-moz-transform-origin:0 0;
 	-ms-transform-origin:0 0;
@@ -345,7 +346,6 @@ body {
 		z-index:-1;
 		width:512px;
 		height:320px;
-		box-shadow:0 20px 50px rgba(42, 43, 45, 0.6);
 	    border-radius:2px;
 		content:'';
 		-webkit-transform-origin:0 0;
@@ -368,15 +368,12 @@ body {
 		font-size:50px;
 		}
 	.list .slide:hover:before {
-		box-shadow:
-			0 0 0 10px rgba(42, 43, 45, 0.3),
-			0 20px 50px rgba(42, 43, 45, 0.6);
+		box-shadow:0 0 0 10px rgba(42, 43, 45, 0.3);
 		}
 	.list .slide:target:before {
 		box-shadow:
 			0 0 0 1px #305F8D,
-			0 0 0 10px #3C7CBD,
-			0 20px 50px rgba(42, 43, 45, 0.6);
+			0 0 0 10px #3C7CBD;
 		}
 	.list .slide:target:after {
 		text-shadow:0 2px 1px rgba(42, 43, 45, 0.6);
@@ -410,8 +407,7 @@ body {
 	.list .slide:target:before {
 		box-shadow:
 			0 0 0 1px #305F8D,
-			0 0 0 10px #3C7CBD,
-			0 20px 50px rgba(42, 43, 45, 0.6);
+			0 0 0 10px #3C7CBD;
 		}
 	.list .slide:target:after {
 		text-shadow:0 4px 2px rgba(42, 43, 45, 0.6);
